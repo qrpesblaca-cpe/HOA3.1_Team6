@@ -8,6 +8,7 @@ Hands-on Activity 3.1 -  Services Installation.
 
 ## Instructions:
   * Create a new repository named as HOA3.1_Team6
+  * Members should be added as collaborators. Enter their emails or usernames. An invitation will be sent and should be accepted.
   * Clone the repository on the local machine's terminal by issuing the command git clone <repository-link>
   #### Inside the repository directory:
 	1.1 Create a inventory file containing the IP addresses of each server.
