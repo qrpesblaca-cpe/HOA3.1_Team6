@@ -1,5 +1,5 @@
 # HOA3.1_Team6
-Hands-on Activity 3.1 -  Services Installation
+Hands-on Activity 3.1 -  Services Installation.
 
 ## Objectives:
   * 1.1 Evaluate different workload services ranging from web services and relational and transnational databases
