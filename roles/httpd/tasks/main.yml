@@ -1,0 +1,8 @@
+---
+# tasks file for httpd
+
+- name: Install httpd and apache2
+  package:
+    name: "{{ apache_package }}"
+    state: latest
+    update_cache: yes

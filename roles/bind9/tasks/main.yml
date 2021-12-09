@@ -1,0 +1,17 @@
+---
+# tasks file for bind9
+- name: Install Bind9 on CentOS
+  dnf:
+   name:
+     - bind
+     - bind-utils
+   state: latest
+   update_cache: yes
+  when: ansible_distribution == "CentOS"
+
+- name: Install Bind9 on Ubuntu
+  apt:
+   name: bind9
+   state: latest
+   update_cache: yes
+  when: ansible_distribution == "Ubuntu"

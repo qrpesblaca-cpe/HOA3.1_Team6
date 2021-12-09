@@ -1,0 +1,8 @@
+---
+# tasks file for samba
+
+- name: Install samba on CentOS and Ubuntu
+  package:
+    name: samba
+    state: latest
+    update_cache: yes

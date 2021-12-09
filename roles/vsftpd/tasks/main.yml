@@ -1,0 +1,15 @@
+---
+# tasks file for vsftpd
+
+- name: Install vsftpd on CentOS
+  dnf:
+   name: vsftpd
+   state: present
+  when: ansible_distribution == "CentOS"
+
+- name: Install vsftpd on Ubuntu
+  apt:
+   name: vsftpd
+   state: present
+  when: ansible_distribution == "Ubuntu"
+
