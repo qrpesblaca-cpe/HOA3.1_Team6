@@ -21,4 +21,4 @@ Hands-on Activity 3.1 -  Services Installation
 		 	mariadb
 
    	1.4 Run the command ansible-playbook --ask-become-pass config.yml to verify that each roles were installed correctly.
-   * Use git push and commit to upload the local repository content to GitHub repository.
+   * Use git push and commit to upload the local repository content to GitHub repository...
